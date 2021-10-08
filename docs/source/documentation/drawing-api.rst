@@ -27,7 +27,7 @@ The origin for the drawing is in the top left and the y-axis points down.
             dpg.draw_text((0, 0), "Origin", color=(250, 250, 250, 255), size=15)
             dpg.draw_arrow((50, 70), (100, 65), color=(0, 200, 255), thickness=1, size=10)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -71,7 +71,7 @@ drawing items for easier controls like, hiding, bring forward, ect.
                 dpg.draw_line((10, 60), (100, 160), color=(255, 0, 0, 255), thickness=1)
                 dpg.draw_arrow((50, 120), (100, 115), color=(0, 200, 255), thickness=1, size=10)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -122,7 +122,7 @@ to that of an image on your computer, such as
             dpg.draw_image("image_id", (400, 300), (600, 500), uv_min=(0, 0), uv_max=(0.5, 0.5))
             dpg.draw_image("image_id", (0, 0), (300, 300), uv_min=(0, 0), uv_max=(2.5, 2.5))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -159,7 +159,7 @@ or background by using a viewport_drawlist.
         dpg.add_text("Move the window over the drawings to see the effects.", wrap=300)
         dpg.draw_circle((100, 100), 25, color=(255, 255, 255, 255))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

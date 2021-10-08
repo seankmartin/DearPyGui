@@ -28,7 +28,7 @@ Confirm the pip install by runing the code block below.
     import dearpygui.dearpygui as dpg
 
     dpg.create_context()
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
 
     with dpg.window(label="Example Window"):
         dpg.add_text("Hello, world")

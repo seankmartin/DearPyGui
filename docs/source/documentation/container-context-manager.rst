@@ -115,7 +115,7 @@ Context Managers:
                 dpg.add_button(label="A Button")
                 dpg.add_simple_plot(label="Menu plot", default_value=(0.3, 0.9, 2.5, 8.9), height=80)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -151,7 +151,7 @@ Explicit Parental Assignment (using UUIDs):
     dpg.add_button(label="A Button", parent=oddities)
     dpg.add_simple_plot(label="A menu plot", default_value=(0.3, 0.9, 2.5, 8.9), height=80, parent=oddities)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -187,7 +187,7 @@ Explicit Parental Assignment (using aliases):
     dpg.add_button(label="A Button", parent="Oddities")
     dpg.add_simple_plot(label="A menu plot", default_value=(0.3, 0.9, 2.5, 8.9), height=80, parent="Oddities")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -222,7 +222,7 @@ Container Stack Operations:
     # remove window from container stack
     dpg.pop_container_stack()
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

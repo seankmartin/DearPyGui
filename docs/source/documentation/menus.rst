@@ -40,7 +40,7 @@ Any widget can be added to a menu.
         print(f"Menu Item: {sender}")
 
     dpg.create_context()
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
 
 
     with dpg.viewport_menu_bar():
@@ -72,7 +72,7 @@ Any widget can be added to a menu.
 
     dpg.create_context()
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
 
 
     def print_me(sender):

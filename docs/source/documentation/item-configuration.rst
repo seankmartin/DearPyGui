@@ -34,7 +34,7 @@ Simple usage can be found below:
         # at a later time, change the item's configuration
         dpg.configure_item("item", enabled=False, label="New Label")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

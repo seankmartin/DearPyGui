@@ -54,7 +54,7 @@ Events:
         dpg.bind_item_handler_registry("text item", "widget handler")
         dpg.bind_item_handler_registry("text item 2", "widget handler")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -106,7 +106,7 @@ children handlers by simply turning off the show keyword in the registry.
         with dpg.handler_registry():
             dpg.add_mouse_down_handler(callback=change_text)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -141,7 +141,7 @@ import dearpygui.dearpygui as dpg
         with dpg.handler_registry():
             dpg.add_mouse_move_handler(callback=change_text)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

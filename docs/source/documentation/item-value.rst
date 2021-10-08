@@ -22,7 +22,7 @@ Values can be changed manually using :py:func:`set_value <dearpygui.dearpygui.se
         dpg.add_input_text(label="Text Input 1")
         dpg.add_input_text(label="Text Input 2", source=dpg.last_item(), password=True)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -64,7 +64,7 @@ Basic usage can be found below:
         dpg.add_input_text(label="Text Input 1", source="string_value")
         dpg.add_input_text(label="Text Input 2", source="string_value", password=True)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

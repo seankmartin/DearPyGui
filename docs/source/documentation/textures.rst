@@ -203,4 +203,3 @@ A simple example can be found below
         dpg.add_image("texture_id")
 
     dpg.start_dearpygui()
-

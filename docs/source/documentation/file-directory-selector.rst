@@ -33,7 +33,7 @@ The simplest case is as a director picker. Below is the example
     with dpg.window(label="Tutorial", width=800, height=300):
         dpg.add_button(label="Directory Selector", callback=lambda: dpg.show_item("file_dialog_id"))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -68,7 +68,7 @@ You can even set the color of the file extensions. Below is a simple example
     with dpg.window(label="Tutorial", width=800, height=300):
         dpg.add_button(label="File Selector", callback=lambda: dpg.show_item("file_dialog_id"))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -116,7 +116,7 @@ Below is an example
     with dpg.window(label="Tutorial", width=800, height=300):
         dpg.add_button(label="File Selector", callback=lambda: dpg.show_item("file_dialog_tag"))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -160,7 +160,7 @@ You can select multiple files by setting the *file_count* keyword
     with dpg.window(label="Tutorial", width=800, height=300):
         dpg.add_button(label="File Selector", callback=lambda: dpg.show_item("file_dialog_tag"))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

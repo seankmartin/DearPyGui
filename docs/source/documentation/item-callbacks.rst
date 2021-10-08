@@ -39,7 +39,7 @@ app_data:
     with dpg.window(label="Tutorial"):
         dpg.add_button(label="Apply", callback=button_callback)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -80,7 +80,7 @@ User data can be any python object.
         dpg.set_item_callback("btn", button_callback)
         dpg.set_item_user_data("btn", "Some Extra User Data")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

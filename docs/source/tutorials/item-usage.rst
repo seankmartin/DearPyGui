@@ -36,7 +36,7 @@ All items return their tag's when they are created.
     print(b1)
     print(dpg.get_item_label("Btn2"))
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -73,7 +73,7 @@ by specifying the parent
     dpg.add_button(label="Button 6", parent=group1)
     dpg.add_button(label="Button 5", parent=group1)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=400)
+    dpg.create_viewport(title="Custom Title", width=600, height=400)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -135,7 +135,7 @@ by viewing them through the item registry tool.
 
     dpg.show_item_registry()
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -194,7 +194,7 @@ user_data:
         dpg.set_item_callback(btn, button_callback)
         dpg.set_item_user_data(btn, "Some Extra User Data")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -254,7 +254,7 @@ setting a callback to the items and printing their values.
         print(dpg.get_value(slider_float1))
         print(dpg.get_value(slider_float2))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -283,7 +283,7 @@ We can set the position of the slider by changing items' value at runtime using
     # instead - for no reason in particular...
     dpg.set_value("slider_int", 40)
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -317,7 +317,7 @@ UI item handlers listen for events (changes in state) related to a UI item then 
             dpg.add_item_clicked_handler(callback=change_text)
         dpg.bind_item_handler_registry("text item", "widget handler")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

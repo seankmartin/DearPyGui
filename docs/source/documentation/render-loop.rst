@@ -30,7 +30,7 @@ For more advanced use cases full access to the render loop can be accessed like 
         dpg.add_input_text(label="string", default_value="Quick brown fox")
         dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
 

@@ -71,7 +71,7 @@ Below is a simple example that demonstrates some of the above:
     # check draw_line's slot
     print(dpg.get_item_slot(dpg.last_item()))
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -86,4 +86,3 @@ Below is a simple example that demonstrates some of the above:
     Use the *slot* and *children_only* keywords with
     :py:func:`delete_item <dearpygui.dearpygui.delete_item>`
     to delete a specific slot of children from a parent.
-

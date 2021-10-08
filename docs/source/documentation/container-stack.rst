@@ -44,7 +44,7 @@ Below is a simple example demonstrating manual stack operations:
     # remove window from container stack
     dpg.pop_container_stack()
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -71,7 +71,7 @@ The above example can be shown again below using explicit parent assignment:
     dpg.add_menu_item(label="Dark", parent="themes")
     dpg.add_menu_item(label="Light", parent="themes")
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -99,7 +99,7 @@ but a simple example can be found below:
                 dpg.add_menu_item(label="Light")
                 dpg.add_menu_item(label="Classic")
             
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

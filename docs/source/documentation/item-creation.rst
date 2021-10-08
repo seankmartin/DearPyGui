@@ -49,7 +49,7 @@ using their context manager function and starting the application:
     with dpg.window(label="Window2", pos=(100,0)) as window2:
         pass
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -95,7 +95,7 @@ that parents a few other items:
     # "parent" parameter.
     button2 = dpg.add_button(label="Don't forget me!", parent=window)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -143,7 +143,7 @@ Below is an example demonstrating adding and deleting app items during runtime:
     with dpg.window(label="Secondary Window", tag="secondary_window", pos=(100, 100)):
         pass
 
-    dpg.create_viewport(title='Custom Title', width=600, height=400)
+    dpg.create_viewport(title="Custom Title", width=600, height=400)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -170,7 +170,7 @@ Below is an example demonstrating adding and deleting app items during runtime:
         dpg.add_button(label="Button_2")
         dpg.add_button(label="Button_3")
 
-    dpg.create_viewport(title='Custom Title', width=600, height=400)
+    dpg.create_viewport(title="Custom Title", width=600, height=400)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()

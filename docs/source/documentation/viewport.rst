@@ -28,7 +28,7 @@ or the helper commands *set_viewport_\*\*\**.
     with dpg.window(label="Example Window", width=500, height=150):
         dpg.add_text("Hello, world")
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)  # create viewport takes in config options too!
+    dpg.create_viewport(title="Custom Title", width=600, height=200)  # create viewport takes in config options too!
 
     # must be called before showing viewport
     dpg.set_viewport_small_icon("path/to/icon.ico")

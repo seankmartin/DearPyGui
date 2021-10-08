@@ -47,7 +47,7 @@ and shown using :py:func:`show_viewport <dearpygui.dearpygui.show_viewport>`
         dpg.add_input_text(label="string", default_value="Quick brown fox")
         dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -81,7 +81,7 @@ the render loop so you can call python commands that may need to run every frame
         dpg.add_input_text(label="string", default_value="Quick brown fox")
         dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
 
@@ -132,7 +132,7 @@ viewport and always be drawn behind other windows.
         dpg.add_input_text(label="string", default_value="Quick brown fox")
         dpg.add_slider_float(label="float", default_value=0.273, max_value=1)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.set_primary_window("Primary Window", True)

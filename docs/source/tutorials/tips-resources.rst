@@ -25,7 +25,7 @@ DPG contains several tools which can help debug applications.
     dpg.show_font_manager()
     dpg.show_item_registry()
 
-    dpg.create_viewport(title='Custom Title', width=800, height=600)
+    dpg.create_viewport(title="Custom Title", width=800, height=600)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -40,4 +40,3 @@ More Resources
 
  * :doc:`../extra/showcase`
  * :doc:`../extra/video-tutorials`
-

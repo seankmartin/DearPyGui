@@ -27,7 +27,7 @@ Tag's easily allow for modifications of the item at runtime.
         dpg.add_button(label="Press me (print to output)", callback=callback)
         unique_id = dpg.add_input_int(label="Input")
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -55,7 +55,7 @@ The previous example could also be handled by generating the tag beforehand like
         dpg.add_button(label="Press me (print to output)", callback=callback)
         dpg.add_input_int(label="Input", tag=unique_tag)
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -85,7 +85,7 @@ A simple example can be seen below:
         dpg.add_button(label="Press me (print to output)", callback=callback)
         dpg.add_input_int(default_value=5, label="Input", tag="unique_tag")
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
@@ -111,7 +111,7 @@ be done at run time or is anonymous or sometimes just for convenience.
             print(dpg.last_container())
             print(dpg.last_root())
 
-    dpg.create_viewport(title='Custom Title', width=600, height=200)
+    dpg.create_viewport(title="Custom Title", width=600, height=200)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.start_dearpygui()
