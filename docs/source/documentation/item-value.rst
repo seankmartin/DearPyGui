@@ -10,24 +10,6 @@ Values are retrieved from the value :py:func:`get_value <dearpygui.dearpygui.get
 
 Values can be changed manually using :py:func:`set_value <dearpygui.dearpygui.set_value>`.
 
-.. code-block:: python
-    import dearpygui.dearpygui as dpg
-
-    dpg.create_context()
-
-    with dpg.window(label="Tutorial"):
-        dpg.add_checkbox(label="Radio Button1", tag="R1")
-        dpg.add_checkbox(label="Radio Button2", source="R1")
-
-        dpg.add_input_text(label="Text Input 1")
-        dpg.add_input_text(label="Text Input 2", source=dpg.last_item(), password=True)
-
-    dpg.create_viewport(title="Custom Title", width=800, height=600)
-    dpg.setup_dearpygui()
-    dpg.show_viewport()
-    dpg.start_dearpygui()
-    dpg.destroy_context()
-
 Value App Items
 ---------------
 There are several "Value" items that can be used. These are
