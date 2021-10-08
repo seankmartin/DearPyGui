@@ -59,6 +59,7 @@ To close the popup, you must hide it. Below is an example
 .. image:: https://raw.githubusercontent.com/hoffstadt/DearPyGui/assets/wiki_images/popup2.PNG
 
 Mouse Button options include:
+
 * _mvMouseButton_Right_
 * _mvMouseButton_Left_
 * _mvMouseButton_Middle_
